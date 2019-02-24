@@ -1,0 +1,34 @@
+{
+  "name": "emotion-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "@types/jest": "24.0.6",
+    "@types/node": "11.9.5",
+    "@types/react": "16.8.4",
+    "@types/react-dom": "16.8.2",
+    "emotion-theming": "^10.0.7",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "^2.1.5",
+    "styled-system-mapper": "file:../..",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
