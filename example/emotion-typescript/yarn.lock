@@ -715,7 +715,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.1.0"
 
-"@babel/runtime@7.3.1":
+"@babel/runtime@7.3.1", "@babel/runtime@^7.3.1":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.1.tgz#574b03e8e8a9898eaf4a872a92ea20b7846f6f2a"
   integrity sha512-7jGW8ppV0ant637pIqAcFfQDDH1orEPGJb8aXfUozuCU3QqX7rX4DA8iwrbPrR1hcH0FTTHz47yQnk+bl5xHQA==
@@ -9150,6 +9150,14 @@ style-loader@0.23.1:
 
 "styled-system-mapper@file:../..":
   version "0.0.0"
+
+styled-system@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-4.0.0.tgz#20875af5559711279c5b68ca103987c00adfded9"
+  integrity sha512-+VTfOJxEe6QIA3QcX4AU4rbw6gaC8k84LNIpM3DaF+14gt8Fwpv0Ca8/2AThnRqIkV5puXK0uMw0CsTg+8yveA==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    prop-types "^15.6.2"
 
 stylehacks@^4.0.0:
   version "4.0.1"
