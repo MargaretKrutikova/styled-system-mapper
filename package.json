@@ -1,6 +1,6 @@
 {
   "name": "styled-system-mapper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "keywords": [],
   "types": "dist/index.d.ts",
@@ -10,8 +10,9 @@
   "author": "Margarita Krutikova <margaretkru@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/MargaretKrutikova/styled-system-mapper"
   },
+  "homepage": "https://github.com/MargaretKrutikova/styled-system-mapper#styled-system-mapper",
   "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
